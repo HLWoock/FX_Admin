@@ -1,0 +1,35 @@
+.root{
+	-fx-background-color: linear-gradient( rgb(31, 31, 31), rgb(181, 181, 181));
+	-fx-font-size: 12pt;
+}
+
+#lbTitle{
+	-fx-font-size: 48pt;
+	-fx-text-fill: rgb(64, 128, 128);
+	-fx-pref-height: 70.0pt;
+	-fx-pref-width: 218.0pt;
+}
+
+#lbSubtitel{
+	-fx-font-size: 24px;
+	-fx-text-fill: rgb(208, 15, 15);
+}
+
+.label{
+	-fx-text-fill: rgb(64, 128, 128);
+}
+.button{
+	-fx-background-color: linear-gradient( antiquewhite, rgb(255, 128, 0));
+	-fx-background-radius: 6;
+}
+.button-red{
+	-fx-background-color: rgb(255, 128, 0);
+	-fx-text-fill: rgb(0, 128, 255);
+	-fx-background-radius: 6;
+}
+#label-bold{
+	-fx-font-weight: bold;
+}
+.chart-horizontal-grid-lines{
+    -fx-stroke-line: rgb(128, 0, 255)	
+} 

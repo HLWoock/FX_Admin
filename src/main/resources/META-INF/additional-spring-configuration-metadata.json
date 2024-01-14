@@ -1,0 +1,137 @@
+{"properties": [
+  {
+    "name": "spring.application.ui.title",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.application.ui.title'"
+  },
+  {
+    "name": "stattauto.pdf",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.pdf'"
+  },
+  {
+    "name": "stattauto.logo",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.logo'"
+  },
+  {
+    "name": "stattauto.tarife.S.KILOMETER",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.KILOMETER'"
+  },
+  {
+    "name": "stattauto.tarife.S.STUNDEN",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.STUNDEN'"
+  },
+  {
+    "name": "stattauto.tarife.S.TAGE",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.TAGE'"
+  },
+  {
+    "name": "stattauto.tarife.S.WOCHEN",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.WOCHEN'"
+  },
+  {
+    "name": "stattauto.tarife.L.KILOMETER",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.KILOMETER'"
+  },
+  {
+    "name": "stattauto.tarife.L.STUNDEN",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.STUNDEN'"
+  },
+  {
+    "name": "stattauto.tarife.L.TAGE",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.TAGE'"
+  },
+  {
+    "name": "stattauto.tarife.L.WOCHEN",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.WOCHEN'"
+  },
+  {
+    "name": "stattauto.tarife.M.KILOMETER",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.KILOMETER'"
+  },
+  {
+    "name": "stattauto.tarife.M.STUNDEN",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.STUNDEN'"
+  },
+  {
+    "name": "stattauto.tarife.M.TAGE",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.TAGE'"
+  },
+  {
+    "name": "stattauto.tarife.M.WOCHEN",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.WOCHEN'"
+  },
+  {
+    "name": "stattauto.tarife.Versicherung.TEILKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.Versicherung.TEILKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.Versicherung.VOLLKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.Versicherung.VOLLKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.Versicherung.BEIFAHRERSCHUTZ",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.Versicherung.BEIFAHRERSCHUTZ'"
+  },
+  {
+    "name": "stattauto.tarife.S.VOLLKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.VOLLKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.S.TEILKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.TEILKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.S.BEIFAHRERSCHUTZ",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.S.BEIFAHRERSCHUTZ'"
+  },
+  {
+    "name": "stattauto.tarife.L.TEILKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.TEILKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.L.VOLLKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.VOLLKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.L.BEIFAHRERSCHUTZ",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.L.BEIFAHRERSCHUTZ'"
+  },
+  {
+    "name": "stattauto.tarife.M.TEILKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.TEILKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.M.VOLLKASKO",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.VOLLKASKO'"
+  },
+  {
+    "name": "stattauto.tarife.M.BEIFAHRERSCHUTZ",
+    "type": "java.lang.String",
+    "description": "A description for 'stattauto.tarife.M.BEIFAHRERSCHUTZ'"
+  }
+]}

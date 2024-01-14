@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.woock.ui.controller.FXMigrationController">
+   <children>
+      <Label layoutX="25.0" layoutY="27.0" text="Datenmigration" textFill="#0a16f2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="138.0" text="Mitglieder" textFill="#037af1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="183.0" text="Fuhrpark" textFill="#037af1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="228.0" text="Callcenter" textFill="#037af1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="273.0" text="Versicherung" textFill="#037af1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="318.0" text="Werkstatt" textFill="#037af1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="363.0" text="Backoffice" textFill="#037af1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbMitglieder_Von" layoutX="340.0" layoutY="142.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbFuhrpark_Von" layoutX="340.0" layoutY="187.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbCallcenter_Von" layoutX="340.0" layoutY="232.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbVersicherung_Von" layoutX="340.0" layoutY="277.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbWerkstatt_Von" layoutX="340.0" layoutY="322.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbBackoffice_Von" layoutX="340.0" layoutY="367.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbMitglieder_Nach" layoutX="108.0" layoutY="142.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbFuhrpark_Nach" layoutX="108.0" layoutY="187.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbCallcenter_Nach" layoutX="108.0" layoutY="232.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbVersicherung_Nach" layoutX="108.0" layoutY="277.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbWerkstatt_Nach" layoutX="108.0" layoutY="322.0" mnemonicParsing="false" />
+      <RadioButton fx:id="rbBackoffice_Nach" layoutX="108.0" layoutY="367.0" mnemonicParsing="false" />
+      <ButtonBar layoutX="208.0" layoutY="471.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="bnChecken" mnemonicParsing="false" onAction="#handleBnChecken" text="Checken" />
+            <Button fx:id="bnMigrieren" mnemonicParsing="false" onAction="#handleBnMigrieren" text="Migrieren" />
+        </buttons>
+      </ButtonBar>
+      <Label layoutX="67.0" layoutY="416.0" text="Monolith" textFill="#f05b05">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="307.0" layoutY="416.0" text="µService" textFill="#f05b05">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Line endX="48.0" endY="-5.4940185546875" layoutX="220.0" layoutY="439.0" startX="-10.0" startY="-5.4940185546875" />
+      <Polygon fx:id="arRight" fill="DODGERBLUE" layoutX="311.0" layoutY="414.0" points="-50.0, 40.0, -20.408676147460938, 40.77067184448242, -33.649993896484375, -1.7586841583251953" rotate="90.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Polygon fx:id="arLeft" fill="DODGERBLUE" layoutX="234.0" layoutY="414.0" points="-50.0, 40.0, -20.408676147460938, 40.77067184448242, -33.649993896484375, -1.7586841583251953" rotate="-90.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <ImageView fx:id="imgAnimation" fitHeight="296.0" fitWidth="444.0" layoutX="440.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/animgifs/transfer.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

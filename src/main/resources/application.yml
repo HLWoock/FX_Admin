@@ -1,0 +1,80 @@
+info:
+  app: StattAuto as Monolith
+  author: Hermann Woock
+  created: 2021-02-03
+  
+stattauto:
+  pdf: C:/Users/hermannw/Documents/workspace-spring-tool-suite-4-4.12.0.RELEASE/FX_UI-Monolith/src/main/resources/rechnungen/
+  logo: file:///C:/Users/hermannw/Documents/workspace-spring-tool-suite-4-4.12.0.RELEASE/FX_UI-Monolith/src/main/resources/images/logo.png
+  
+  tarife:
+    S: 
+      KILOMETER: '0.13'
+      STUNDEN: '3.2'
+      TAGE: '25.9'
+      WOCHEN: '149'
+      TEILKASKO: '1'
+      VOLLKASKO: '2.2'
+      BEIFAHRERSCHUTZ: '2'
+    L:
+      KILOMETER: '0.15'
+      STUNDEN: '4.3'
+      TAGE: '34.9'
+      WOCHEN: '199'
+      TEILKASKO: '1.5'
+      VOLLKASKO: '3.5'
+      BEIFAHRERSCHUTZ: '2.1'
+    M:
+      KILOMETER: '0.17'
+      STUNDEN: '4.9'
+      TAGE: '39.9'
+      WOCHEN: '229' 
+      TEILKASKO: '2'
+      VOLLKASKO: '5.5'
+      BEIFAHRERSCHUTZ: '2.2'
+
+spring:
+  application:
+    ui:
+      title: StattAuto
+  main:
+    web-application-type: none
+    allow-bean-definition-overriding: true   
+    banner-mode: CONSOLE  
+  mvc:
+    log-request-details: true
+  threads:
+    virtual:
+      enabled: true
+      
+camel:
+  springboot:
+    main-run-controller: true
+    
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    camel:
+      enabled: true
+    camelroutes:
+      enabled: true 
+    health:
+      show-details: always
+      show-components: always    
+
+logging:
+  file:
+    name: stattauto.log
+    path: c:/logs
+    clean-history-on-start: true
+  level:
+    root: error
+    '[org.springframework]': info
+    '[de.woock]': debug
+    '[org.hibernate.SQL]': error
+    '[org.hibernate.orm.jdbc.bind]': error
+    '[org.hibernate.type.descriptor.sql]': error
